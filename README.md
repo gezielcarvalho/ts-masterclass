@@ -39,6 +39,32 @@ When writing Javascript, you should start the file eith "use strict" to avoid co
 
 ## TypeScript Setup
 
+My current setup is as follows:
+
+```
+$ node -v
+v20.9.0
+$ npm -v
+10.1.0
+$ tsc -v
+Version 5.5.4
+```
+
+Set the default formatter to Prettier in VS Code by adding the following to the settings.json file:
+
+```
+    "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.formatOnSave": true,
+```
+
+Create the tsconfig.json file by running the following command:
+
+```bash
+$ tsc --init
+```
+
 ## Getting Started with Types in TypeScript
 
 ## Conditionals and Loops in TypeScript
@@ -96,3 +122,7 @@ When writing Javascript, you should start the file eith "use strict" to avoid co
 1. [TypeScript Documentation](https://www.typescriptlang.org/docs/)
 2. [TypeScript Handbook](https://www.typescriptlang.org/docs/handbook/intro.html)
 3. [TypeScript Playground](https://www.typescriptlang.org/play)
+
+```
+
+```
