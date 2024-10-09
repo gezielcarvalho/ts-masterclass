@@ -75,6 +75,10 @@ TypeScript is a statically typed language, which means that you can specify the 
 
 In TypeScript, you can use the if statement to execute a block of code if a condition is true. You can also use the else statement to execute a block of code if the condition is false. TypeScript also has a switch statement, which allows you to execute different blocks of code based on the value of a variable. You can use the for loop to iterate over an array or object, and the while loop to execute a block of code as long as a condition is true.
 
+The difference between for in, for of, and forEach is that for in iterates over the keys of an object, for of iterates over the values of an array, and forEach iterates over the values of an array and does not return anything.
+
+For in is used to iterate over the **keys** of an object, for of is used to iterate over the **values** of an array, and forEach is used to iterate over the **values** of an array and does not return anything.
+
 ## Let's Get You Coding Challenges - Part 1
 
 ## Functions in TypeScript
