@@ -1,5 +1,7 @@
 # TypeScript Developer Course in 2024 – Beginner to Expert
 
+<img src="./assets/images/ts_icon_256.png" alt="TypeScrip" width="32" height="32">
+
 - [TypeScript Developer Course in 2024 – Beginner to Expert](#typescript-developer-course-in-2024--beginner-to-expert)
   - [Introduction](#introduction)
   - [TypeScript Setup](#typescript-setup)
@@ -67,7 +69,11 @@ $ tsc --init
 
 ## Getting Started with Types in TypeScript
 
+TypeScript is a statically typed language, which means that you can specify the type of a variable when you declare it. This is useful because it allows you to catch errors at compile time, rather than at runtime. TypeScript has several built-in types, including number, string, boolean, and any. You can also create your own custom types using interfaces and enums.
+
 ## Conditionals and Loops in TypeScript
+
+In TypeScript, you can use the if statement to execute a block of code if a condition is true. You can also use the else statement to execute a block of code if the condition is false. TypeScript also has a switch statement, which allows you to execute different blocks of code based on the value of a variable. You can use the for loop to iterate over an array or object, and the while loop to execute a block of code as long as a condition is true.
 
 ## Let's Get You Coding Challenges - Part 1
 
