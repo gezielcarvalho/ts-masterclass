@@ -1,13 +1,12 @@
-// Tuple Type in TypeScript
-var courseDetails = ['React', 30];
+"use strict";
+const courseDetails = ['React', 30];
 console.log(courseDetails);
-// No explicit type declaration
-var courseDetails2 = ['React', 30];
+let courseDetails2 = ['React', 30];
 console.log(courseDetails2);
 function getCourseDetails() {
     return ['React', 30];
 }
-var course = getCourseDetails();
+let course = getCourseDetails();
 console.log(course);
-var courseDetailsInferred = ['React', 30];
+let courseDetailsInferred = ['React', 30];
 console.log(courseDetailsInferred);
