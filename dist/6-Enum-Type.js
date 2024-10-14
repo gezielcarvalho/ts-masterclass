@@ -1,3 +1,4 @@
+"use strict";
 var RollNumber;
 (function (RollNumber) {
     RollNumber[RollNumber["One"] = 1] = "One";
@@ -7,13 +8,13 @@ var RollNumber;
     RollNumber[RollNumber["Five"] = 4] = "Five";
     RollNumber[RollNumber["Six"] = 5] = "Six";
 })(RollNumber || (RollNumber = {}));
-var rollNumber = RollNumber.Four;
+let rollNumber = RollNumber.Four;
 console.log(rollNumber);
-var rollNumber2 = 301 /* RollNumber2.Four */;
+let rollNumber2 = 301;
 console.log(rollNumber2);
-var rollNumberFive = 302 /* RollNumber2.Five */;
-console.log({ rollNumberFive: rollNumberFive });
-var studentDetails = "Yes" /* StudentDetails.IsPassed */;
-var studentDetails2 = "John" /* StudentDetails.Name */;
+let rollNumberFive = 302;
+console.log({ rollNumberFive });
+let studentDetails = "Yes";
+let studentDetails2 = "John";
 console.log(studentDetails);
 console.log(studentDetails2);
