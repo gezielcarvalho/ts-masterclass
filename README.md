@@ -67,6 +67,12 @@ Create the tsconfig.json file by running the following command:
 $ tsc --init
 ```
 
+To run the TypeScript compiler in watch mode, use the following command:
+
+```bash
+$ tsc -w
+```
+
 ## Getting Started with Types in TypeScript
 
 TypeScript is a statically typed language, which means that you can specify the type of a variable when you declare it. This is useful because it allows you to catch errors at compile time, rather than at runtime. TypeScript has several built-in types, including number, string, boolean, and any. You can also create your own custom types using interfaces and enums.
