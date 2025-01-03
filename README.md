@@ -30,6 +30,7 @@
   - [Mapped Types](#mapped-types)
   - [Modules](#modules)
   - [TypeScript and Webpack](#typescript-and-webpack)
+  - [Observer Pattern](#observer-pattern)
   - [Conclusion](#conclusion)
 - [References](#references)
 
@@ -130,6 +131,10 @@ For in is used to iterate over the **keys** of an object, for of is used to iter
 ## Modules
 
 ## TypeScript and Webpack
+
+## Observer Pattern
+
+- [Mitt](https://www.npmjs.com/package/mitt)
 
 ## Conclusion
 
