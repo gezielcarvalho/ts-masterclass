@@ -1,5 +1,14 @@
 # TypeScript Developer Course in 2024 – Beginner to Expert
 
+> **Repository status:** personal TypeScript learning reference. This is a collection of language exercises and pattern examples, not a packaged application or maintained library.
+
+## Repository guide
+
+- [Current-state overview](docs/README.md)
+- [Learning charter](docs/project-charter.md)
+- [Structure and execution boundaries](docs/architecture.md)
+- [Quality and maintenance handoff](docs/delivery-and-quality.md)
+
 <img src="./assets/images/ts_icon_256.png" alt="TypeScrip" width="32" height="32">
 
 - [TypeScript Developer Course in 2024 – Beginner to Expert](#typescript-developer-course-in-2024--beginner-to-expert)
